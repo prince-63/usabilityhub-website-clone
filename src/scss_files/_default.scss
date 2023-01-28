@@ -1,0 +1,41 @@
+$--color-1: #000000;
+$--color-2: #007bb6;
+$--color-3: #6674cc;
+$--color-4: #808080;
+$--color-5: #2294ed;
+$--color-6: #333333;
+$--color-7: #f44336;
+$--color-8: #f5f5f5;
+$--color-9: #f8f8fd;
+$--color-10: #ffa511;
+$-color-11: #ffffff;
+$--color-12: #1a2930;
+$--color-14: #8ba6c0;
+$--color-15: #b9cde4;
+$--color-16: #e74694;
+$--color-17: #ebf2fa;
+$--color-18: #183b54;
+$--color-19: #000000, opacity 0%;
+$--color-20: #e74c3c, opacity 10.0%;
+$--merriweather: 'Merriweather', serif;
+$--poppins: 'Poppins', sans-serif;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: $--poppins;
+}
+
+ul, li {
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
