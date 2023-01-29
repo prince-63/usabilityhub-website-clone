@@ -175,4 +175,114 @@ a {
 }
 .company_section .img_section img:hover {
   transform: scale(1.2);
+}
+
+.card_btn button {
+  padding: 10px 20px;
+  font-family: "Merriweather", serif;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  color: #183b54;
+  border-radius: 4px;
+  border: 1px solid #b9cde4;
+  transition: 0.5s all;
+  cursor: pointer;
+}
+.card_btn button:hover {
+  color: #007bb6;
+  border-color: #007bb6;
+}
+.card_btn button img {
+  margin-left: 4px;
+}
+
+.card_section {
+  padding: 20px 30px;
+}
+.card_section .card_container_one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card_section .card_container_one h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 2;
+  color: #007bb6;
+}
+.card_section .card_container_two {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.card_section .card_container_two .cards {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+  justify-content: space-between;
+  transition: 0.5s all;
+}
+.card_section .card_container_two .cards:hover {
+  transform: scale(1.02);
+}
+.card_section .card_container_two .cards .img img {
+  width: 40px;
+}
+.card_section .card_container_two .cards h3 {
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  font-size: 2rem;
+  line-height: 2;
+  color: rgb(2, 141, 255);
+}
+.card_section .card_container_two .cards p {
+  font-family: "Merriweather", serif;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#About {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px;
+  background-color: rgba(41, 100, 155, 0.075);
+}
+#About .AboutLogo img {
+  width: 140px;
+}
+#About .AboutMethodologies {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#About .AboutMethodologies h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  line-height: 2;
+  color: #1a2930;
+}
+#About .AboutMethodologies ul li a {
+  color: black;
+  line-height: 2;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  font-size: 1.2rem;
+  opacity: 0.9;
+  transition: 0.5s all;
+}
+#About .AboutMethodologies ul li a:hover {
+  opacity: 1;
 }/*# sourceMappingURL=App.css.map */

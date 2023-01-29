@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "../../assets/asset 1.png";
-import "../js/events";
 
 export default function Header() {
     return (

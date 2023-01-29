@@ -7,7 +7,7 @@ const Compony = () => {
     return (
         <>
             <div className="company_section">
-                {arr.map(index => <Logo img={index.link} />)}
+                {arr.map(index => <Logo key={index.key} img={index.link} />)}
             </div>
         </>
     )
