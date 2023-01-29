@@ -5,6 +5,8 @@ import Banner from "./components/Banner/Banner";
 import Compony from "./components/Compony/Compony";
 import Card from "./components/Card/Card";
 import About from "./components/About/About";
+import Social from "./components/Social/Social";
+import Review from "./components/Review/Review";
 
 function App() {
     return (
@@ -13,7 +15,9 @@ function App() {
             <Banner />
             <Compony />
             <Card />
+            <Review />
             <About />
+            <Social />
         </>
     )
 }

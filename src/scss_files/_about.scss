@@ -25,8 +25,9 @@ $--poppins: "Poppins", sans-serif;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 40px;
-    background-color: rgba(41, 100, 155, 0.075);
+    padding: 60px 40px;
+    background-color: #ebf2fa;
+    flex-wrap: wrap;
 
     .AboutLogo {
         img {
@@ -49,12 +50,12 @@ $--poppins: "Poppins", sans-serif;
         ul {
             li {
                 a {
-                    color: black;
+                    color: rgba(0, 0, 0, 0.788);
                     line-height: 2;
                     font-family: $--poppins;
                     font-weight: 500;
                     letter-spacing: .3px;
-                    font-size: 1.2rem;
+                    font-size: 1.4rem;
                     opacity: .9;
                     transition: .5s all;
 
