@@ -1,0 +1,142 @@
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 52%;
+  }
+
+  //banner section
+  .banner_section {
+    .box_section {
+      flex-wrap: wrap-reverse;
+
+      .first_box {
+        margin: 10px;
+
+        h1 {
+          font-size: 1.7rem;
+          width: 100%;
+          text-align: center;
+        }
+
+        p {
+          font-size: 1.3rem;
+          width: 100%;
+          text-align: center;
+        }
+
+        button {
+          width: 100%;
+        }
+      }
+
+      .second_box {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  //cards
+  .card_section {
+    padding: 5px;
+
+    .card_container_one {
+      h1 {
+        font-size: 2rem;
+        text-align: center;
+        line-height: 5;
+      }
+    }
+
+    .card_container_two {
+      flex-direction: column;
+
+      .cards {
+        padding: 5px;
+      }
+    }
+  }
+
+  // review 
+  .ReviewContainer {
+    padding: 10px;
+    align-items: center;
+    flex-direction: column;
+
+    .box {
+        padding: 10px;
+    }
+  }
+
+  //about 
+
+  #About {
+    flex-direction: column;
+    align-items: center;
+
+    .AboutMethodologies {
+        margin-top: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+
+  // social 
+  .social_sections {
+    flex-direction: column;
+    align-items: center;
+
+    .info {
+        flex-direction: column;
+        margin-bottom: 10px;
+
+        p{
+            margin-left: 0;
+            margin-top: 10px;
+        }
+    }
+
+    .social_links {
+        margin-top: 10px;
+        ul {
+            li {
+                margin-left: 25px;
+                a {
+                    i {
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+    }
+  }
+}   
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+
+  // heading
+  .header_section {
+    .links {
+      display: none;
+    }
+  }
+
+  // banner
+  .banner_section {
+    .text {
+      span {
+        text-align: center;
+        font-size: 1rem;
+      }
+    }
+  }
+}
