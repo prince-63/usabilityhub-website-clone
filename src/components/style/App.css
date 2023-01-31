@@ -21,18 +21,18 @@ a {
 
 .header_section {
   width: 100%;
-  height: 8vh;
+  height: 60px;
   background-color: #f8f8fd;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px;
-}
-@media (max-width: 900px) {
-  .header_section {
-    background-color: red;
-  }
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 .header_section .logo img {
   width: 130px;
@@ -77,6 +77,18 @@ a {
   background-color: #e74694;
   border-color: #e74694;
 }
+.header_section #menu_section {
+  display: none;
+}
+.header_section #menu_section i {
+  font-size: 2.3rem;
+  margin-right: 10px;
+  color: #333333;
+  transition: 0.5s all;
+}
+.header_section #menu_section i:hover {
+  color: #000000;
+}
 
 .Product, .Resources {
   background-color: #ebf2fa;
@@ -116,12 +128,12 @@ a {
 }
 .banner_section .box_section .first_box p {
   font-weight: 500;
-  line-height: 1;
+  line-height: 1.2;
   font-family: "Poppins", sans-serif;
-  font-size: 2rem;
+  font-size: 1rem;
   text-transform: capitalize;
   padding: 10px 0px;
-  opacity: 0.6;
+  opacity: 1;
   color: #183b54;
 }
 .banner_section .box_section .first_box button {
@@ -444,13 +456,45 @@ a {
   .social_sections .social_links ul li a i {
     font-size: 2rem;
   }
+  .header_section {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+  .header_section .links {
+    display: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 60px;
+    background-color: #f8f8fd;
+    padding: 30px;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .header_section .links ul {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header_section .links ul li {
+    display: block;
+    line-height: 4;
+  }
+  .header_section .links ul li a {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+  }
+  .header_section #menu_section {
+    display: block;
+  }
 }
 @media (max-width: 450px) {
   html {
     font-size: 50%;
-  }
-  .header_section .links {
-    display: none;
   }
   .banner_section .text span {
     text-align: center;

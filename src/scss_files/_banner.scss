@@ -41,12 +41,12 @@ $--poppins: "Poppins", sans-serif;
       }
       p {
         font-weight: 500;
-        line-height: 1;
+        line-height: 1.2;
         font-family: $--poppins;
-        font-size: 2rem;
+        font-size: 1rem;
         text-transform: capitalize;
         padding: 10px 0px;
-        opacity: 0.6;
+        opacity: 1;
         color: $--color-18;
       }
 
